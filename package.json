@@ -1,0 +1,17 @@
+{
+  "name": "frostpdf-jobrunner",
+  "version": "1.0.0",
+  "description": "Job Runner for FrostPDF - handles heavy PDF tasks using Ghostscript, LibreOffice, and Tesseract",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "child_process": "1.0.2"
+  }
+}
